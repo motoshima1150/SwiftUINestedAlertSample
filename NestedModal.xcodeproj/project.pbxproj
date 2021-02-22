@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40CFB04F25E3C01E00BA0DF2 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CFB04E25E3C01E00BA0DF2 /* Tests_iOS.swift */; };
+		40CFB05A25E3C01E00BA0DF2 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CFB05925E3C01E00BA0DF2 /* Tests_macOS.swift */; };
+		40CFB05C25E3C01E00BA0DF2 /* NestedModalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CFB03325E3C01C00BA0DF2 /* NestedModalApp.swift */; };
+		40CFB05D25E3C01E00BA0DF2 /* NestedModalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CFB03325E3C01C00BA0DF2 /* NestedModalApp.swift */; };
+		40CFB05E25E3C01E00BA0DF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CFB03425E3C01C00BA0DF2 /* ContentView.swift */; };
+		40CFB05F25E3C01E00BA0DF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CFB03425E3C01C00BA0DF2 /* ContentView.swift */; };
+		40CFB06025E3C01E00BA0DF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40CFB03525E3C01E00BA0DF2 /* Assets.xcassets */; };
+		40CFB06125E3C01E00BA0DF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40CFB03525E3C01E00BA0DF2 /* Assets.xcassets */; };
+		40CFB07525E3C27600BA0DF2 /* NestableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CFB07425E3C27600BA0DF2 /* NestableView.swift */; };
+		40CFB07625E3C27600BA0DF2 /* NestableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CFB07425E3C27600BA0DF2 /* NestableView.swift */; };
+		40CFB08025E3C29100BA0DF2 /* UnNestableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CFB07F25E3C29100BA0DF2 /* UnNestableView.swift */; };
+		40CFB08125E3C29100BA0DF2 /* UnNestableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CFB07F25E3C29100BA0DF2 /* UnNestableView.swift */; };
+		40CFB08B25E3CD6600BA0DF2 /* NestableChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CFB08A25E3CD6600BA0DF2 /* NestableChildView.swift */; };
+		40CFB08C25E3CD6600BA0DF2 /* NestableChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CFB08A25E3CD6600BA0DF2 /* NestableChildView.swift */; };
+		40CFB09A25E3CF7100BA0DF2 /* UnNestableChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CFB09925E3CF7100BA0DF2 /* UnNestableChildView.swift */; };
+		40CFB09B25E3CF7100BA0DF2 /* UnNestableChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CFB09925E3CF7100BA0DF2 /* UnNestableChildView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40CFB04B25E3C01E00BA0DF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40CFB02E25E3C01C00BA0DF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40CFB03925E3C01E00BA0DF2;
+			remoteInfo = "NestedModal (iOS)";
+		};
+		40CFB05625E3C01E00BA0DF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40CFB02E25E3C01C00BA0DF2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40CFB04125E3C01E00BA0DF2;
+			remoteInfo = "NestedModal (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40CFB03325E3C01C00BA0DF2 /* NestedModalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedModalApp.swift; sourceTree = "<group>"; };
+		40CFB03425E3C01C00BA0DF2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		40CFB03525E3C01E00BA0DF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40CFB03A25E3C01E00BA0DF2 /* NestedModal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestedModal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40CFB03D25E3C01E00BA0DF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40CFB04225E3C01E00BA0DF2 /* NestedModal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestedModal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40CFB04425E3C01E00BA0DF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40CFB04525E3C01E00BA0DF2 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		40CFB04A25E3C01E00BA0DF2 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40CFB04E25E3C01E00BA0DF2 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		40CFB05025E3C01E00BA0DF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40CFB05525E3C01E00BA0DF2 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40CFB05925E3C01E00BA0DF2 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		40CFB05B25E3C01E00BA0DF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40CFB07425E3C27600BA0DF2 /* NestableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestableView.swift; sourceTree = "<group>"; };
+		40CFB07F25E3C29100BA0DF2 /* UnNestableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnNestableView.swift; sourceTree = "<group>"; };
+		40CFB08A25E3CD6600BA0DF2 /* NestableChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestableChildView.swift; sourceTree = "<group>"; };
+		40CFB09925E3CF7100BA0DF2 /* UnNestableChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnNestableChildView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40CFB03725E3C01E00BA0DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40CFB03F25E3C01E00BA0DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40CFB04725E3C01E00BA0DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40CFB05225E3C01E00BA0DF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40CFB02D25E3C01C00BA0DF2 = {
+			isa = PBXGroup;
+			children = (
+				40CFB03225E3C01C00BA0DF2 /* Shared */,
+				40CFB03C25E3C01E00BA0DF2 /* iOS */,
+				40CFB04325E3C01E00BA0DF2 /* macOS */,
+				40CFB04D25E3C01E00BA0DF2 /* Tests iOS */,
+				40CFB05825E3C01E00BA0DF2 /* Tests macOS */,
+				40CFB03B25E3C01E00BA0DF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40CFB03225E3C01C00BA0DF2 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				40CFB03325E3C01C00BA0DF2 /* NestedModalApp.swift */,
+				40CFB03425E3C01C00BA0DF2 /* ContentView.swift */,
+				40CFB07425E3C27600BA0DF2 /* NestableView.swift */,
+				40CFB08A25E3CD6600BA0DF2 /* NestableChildView.swift */,
+				40CFB07F25E3C29100BA0DF2 /* UnNestableView.swift */,
+				40CFB09925E3CF7100BA0DF2 /* UnNestableChildView.swift */,
+				40CFB03525E3C01E00BA0DF2 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		40CFB03B25E3C01E00BA0DF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40CFB03A25E3C01E00BA0DF2 /* NestedModal.app */,
+				40CFB04225E3C01E00BA0DF2 /* NestedModal.app */,
+				40CFB04A25E3C01E00BA0DF2 /* Tests iOS.xctest */,
+				40CFB05525E3C01E00BA0DF2 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40CFB03C25E3C01E00BA0DF2 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				40CFB03D25E3C01E00BA0DF2 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		40CFB04325E3C01E00BA0DF2 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				40CFB04425E3C01E00BA0DF2 /* Info.plist */,
+				40CFB04525E3C01E00BA0DF2 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		40CFB04D25E3C01E00BA0DF2 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				40CFB04E25E3C01E00BA0DF2 /* Tests_iOS.swift */,
+				40CFB05025E3C01E00BA0DF2 /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		40CFB05825E3C01E00BA0DF2 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				40CFB05925E3C01E00BA0DF2 /* Tests_macOS.swift */,
+				40CFB05B25E3C01E00BA0DF2 /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40CFB03925E3C01E00BA0DF2 /* NestedModal (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40CFB06425E3C01E00BA0DF2 /* Build configuration list for PBXNativeTarget "NestedModal (iOS)" */;
+			buildPhases = (
+				40CFB03625E3C01E00BA0DF2 /* Sources */,
+				40CFB03725E3C01E00BA0DF2 /* Frameworks */,
+				40CFB03825E3C01E00BA0DF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NestedModal (iOS)";
+			productName = "NestedModal (iOS)";
+			productReference = 40CFB03A25E3C01E00BA0DF2 /* NestedModal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40CFB04125E3C01E00BA0DF2 /* NestedModal (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40CFB06725E3C01E00BA0DF2 /* Build configuration list for PBXNativeTarget "NestedModal (macOS)" */;
+			buildPhases = (
+				40CFB03E25E3C01E00BA0DF2 /* Sources */,
+				40CFB03F25E3C01E00BA0DF2 /* Frameworks */,
+				40CFB04025E3C01E00BA0DF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NestedModal (macOS)";
+			productName = "NestedModal (macOS)";
+			productReference = 40CFB04225E3C01E00BA0DF2 /* NestedModal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40CFB04925E3C01E00BA0DF2 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40CFB06A25E3C01E00BA0DF2 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				40CFB04625E3C01E00BA0DF2 /* Sources */,
+				40CFB04725E3C01E00BA0DF2 /* Frameworks */,
+				40CFB04825E3C01E00BA0DF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40CFB04C25E3C01E00BA0DF2 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 40CFB04A25E3C01E00BA0DF2 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		40CFB05425E3C01E00BA0DF2 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40CFB06D25E3C01E00BA0DF2 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				40CFB05125E3C01E00BA0DF2 /* Sources */,
+				40CFB05225E3C01E00BA0DF2 /* Frameworks */,
+				40CFB05325E3C01E00BA0DF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40CFB05725E3C01E00BA0DF2 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 40CFB05525E3C01E00BA0DF2 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40CFB02E25E3C01C00BA0DF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					40CFB03925E3C01E00BA0DF2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					40CFB04125E3C01E00BA0DF2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					40CFB04925E3C01E00BA0DF2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 40CFB03925E3C01E00BA0DF2;
+					};
+					40CFB05425E3C01E00BA0DF2 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 40CFB04125E3C01E00BA0DF2;
+					};
+				};
+			};
+			buildConfigurationList = 40CFB03125E3C01C00BA0DF2 /* Build configuration list for PBXProject "NestedModal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40CFB02D25E3C01C00BA0DF2;
+			productRefGroup = 40CFB03B25E3C01E00BA0DF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40CFB03925E3C01E00BA0DF2 /* NestedModal (iOS) */,
+				40CFB04125E3C01E00BA0DF2 /* NestedModal (macOS) */,
+				40CFB04925E3C01E00BA0DF2 /* Tests iOS */,
+				40CFB05425E3C01E00BA0DF2 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40CFB03825E3C01E00BA0DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CFB06025E3C01E00BA0DF2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40CFB04025E3C01E00BA0DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CFB06125E3C01E00BA0DF2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40CFB04825E3C01E00BA0DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40CFB05325E3C01E00BA0DF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40CFB03625E3C01E00BA0DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CFB07525E3C27600BA0DF2 /* NestableView.swift in Sources */,
+				40CFB05E25E3C01E00BA0DF2 /* ContentView.swift in Sources */,
+				40CFB09A25E3CF7100BA0DF2 /* UnNestableChildView.swift in Sources */,
+				40CFB05C25E3C01E00BA0DF2 /* NestedModalApp.swift in Sources */,
+				40CFB08025E3C29100BA0DF2 /* UnNestableView.swift in Sources */,
+				40CFB08B25E3CD6600BA0DF2 /* NestableChildView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40CFB03E25E3C01E00BA0DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CFB07625E3C27600BA0DF2 /* NestableView.swift in Sources */,
+				40CFB05F25E3C01E00BA0DF2 /* ContentView.swift in Sources */,
+				40CFB09B25E3CF7100BA0DF2 /* UnNestableChildView.swift in Sources */,
+				40CFB05D25E3C01E00BA0DF2 /* NestedModalApp.swift in Sources */,
+				40CFB08125E3C29100BA0DF2 /* UnNestableView.swift in Sources */,
+				40CFB08C25E3CD6600BA0DF2 /* NestableChildView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40CFB04625E3C01E00BA0DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CFB04F25E3C01E00BA0DF2 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40CFB05125E3C01E00BA0DF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CFB05A25E3C01E00BA0DF2 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40CFB04C25E3C01E00BA0DF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40CFB03925E3C01E00BA0DF2 /* NestedModal (iOS) */;
+			targetProxy = 40CFB04B25E3C01E00BA0DF2 /* PBXContainerItemProxy */;
+		};
+		40CFB05725E3C01E00BA0DF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40CFB04125E3C01E00BA0DF2 /* NestedModal (macOS) */;
+			targetProxy = 40CFB05625E3C01E00BA0DF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		40CFB06225E3C01E00BA0DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40CFB06325E3C01E00BA0DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		40CFB06525E3C01E00BA0DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = motoshima1150.NestedModal;
+				PRODUCT_NAME = NestedModal;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40CFB06625E3C01E00BA0DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = motoshima1150.NestedModal;
+				PRODUCT_NAME = NestedModal;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40CFB06825E3C01E00BA0DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = motoshima1150.NestedModal;
+				PRODUCT_NAME = NestedModal;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		40CFB06925E3C01E00BA0DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = motoshima1150.NestedModal;
+				PRODUCT_NAME = NestedModal;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		40CFB06B25E3C01E00BA0DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "motoshima1150.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NestedModal (iOS)";
+			};
+			name = Debug;
+		};
+		40CFB06C25E3C01E00BA0DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "motoshima1150.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NestedModal (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40CFB06E25E3C01E00BA0DF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "motoshima1150.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "NestedModal (macOS)";
+			};
+			name = Debug;
+		};
+		40CFB06F25E3C01E00BA0DF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "motoshima1150.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "NestedModal (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40CFB03125E3C01C00BA0DF2 /* Build configuration list for PBXProject "NestedModal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40CFB06225E3C01E00BA0DF2 /* Debug */,
+				40CFB06325E3C01E00BA0DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40CFB06425E3C01E00BA0DF2 /* Build configuration list for PBXNativeTarget "NestedModal (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40CFB06525E3C01E00BA0DF2 /* Debug */,
+				40CFB06625E3C01E00BA0DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40CFB06725E3C01E00BA0DF2 /* Build configuration list for PBXNativeTarget "NestedModal (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40CFB06825E3C01E00BA0DF2 /* Debug */,
+				40CFB06925E3C01E00BA0DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40CFB06A25E3C01E00BA0DF2 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40CFB06B25E3C01E00BA0DF2 /* Debug */,
+				40CFB06C25E3C01E00BA0DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40CFB06D25E3C01E00BA0DF2 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40CFB06E25E3C01E00BA0DF2 /* Debug */,
+				40CFB06F25E3C01E00BA0DF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40CFB02E25E3C01C00BA0DF2 /* Project object */;
+}
